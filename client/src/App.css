@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #d7dbdc;
+}
+
+.navbar.colorChange {
+  background-color: white;
+  height: 60px;
+  border-bottom: 1px solid #d7dbdc;
+  padding-top: 0;
+}
+
+.checkOpen {
+  right: 0;
+}
+
+.check {
+  right: -450px;
+}
+
+.Overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+.Overlay.Show {
+  visibility: visible;
+  opacity: 1;
+  z-index: 5;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(168, 167, 167);
+}
